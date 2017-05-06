@@ -1,7 +1,8 @@
 // soundfx.h
 
-
+#ifdef USE_FMOD
 void FMOD_ERRCHECK(int result);
+#endif
 
 void InitSound( void );
 void PlayStereo( short player, short which );
@@ -30,8 +31,11 @@ enum
 	kBatsuSnd,
 	kNumSounds
 };
-
+#ifdef USE_FMOD
 namespace FMOD { class System; }
 
 extern MBoolean         soundOn;
 extern FMOD::System    *g_fmod;
+#else
+extern MBoolean		soundOn;
+#endif

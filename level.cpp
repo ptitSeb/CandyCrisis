@@ -971,10 +971,14 @@ const char *gameCredits[][6] =
 {
 	{ "Programming", "John Stiles", "", "", "", "" },
 	{ "Artwork", "Kate Davis", "Leanne Stiles", "Arnauld de la Grandiere", "Bob Frasure", "Ryan Bliss" },
-	{ "Music", "Leanne Stiles", "fmod", "Lizardking", "Armadon, Explizit", "Leviathan, Nemesis" },
+	{ "Music", "Leanne Stiles", "fmod", "Lizardking", "Armadon, Explizit", "Leviathan, Nemesis" }, //fmod is a person?
 	{ "Music", "Jester, Pygmy", "Siren", "Sirrus", "Scaven, FC", "Spring" }, 		  
 	{ "Music", "Timewalker", "Jason, Silents", "Chromatic Dragon", "Ng Pei Sin", "" },
+#ifdef USE_FMOD
 	{ "Open Source", "gcc, mingw", "SDL", "libpng", "IJG", "zlib" },
+#else
+	{ "Open Source", "gcc, mingw", "SDL, SDL_mixer", "libpng", "IJG", "zlib" },
+#endif
 	{ "Special Thanks", "Sam Lantinga", "Carey Lening", "modarchive.com", "digitalblasphemy.com", "" },	  
 	{ "Please Register!", "The full version of", "Candy Crisis features", "twelve stages and also", "includes two player", "mode." } 		  
 };
