@@ -11,7 +11,7 @@ before_install:
     - git clone https://github.com/ptitSeb/SDL_sound
     - cd SDL_sound
     - ./autogen.sh
-    - ./configure
+    - ./configure --prefix=/usr
     - make
     - sudo make install
     - cd ..
