@@ -1,5 +1,7 @@
 # CandyCrisis
 
+![CandyCrisis build status](https://api.travis-ci.org/ptitSeb/CandyCrisis.png "CandyCrisis build status")
+
 Unofficial Linux and Pandora port for the OpenSource game Candy Crisis
 
 Go to the official Website http://candycrisis.sourceforge.net/ for more informations.
@@ -7,7 +9,7 @@ Go to the official Website http://candycrisis.sourceforge.net/ for more informat
 #Build
 ======
 
-You will need CMake, SDL2, SDL_image and either fmod or SDL_Sound to build CandyCrisis
+You will need CMake, SDL2, SDL2_image and either fmod or SDL2_Sound to build CandyCrisis
 
 simply
 `cmake && make`
@@ -16,7 +18,9 @@ or
 `cmake -DUSE_FMOD=ON && make`
 for the FMOD version.
 
-Windows and MacOS build are not supported in this repo, but should works (Just missings the libs for Windows, and project file for MacOS).
+You can found an SDL2 compatible verison of SDL_sound here: https://github.com/ptitSeb/SDL_sound
+
+Windows and MacOS build are not officially supported in this repo, but should works (Just missings the libs for Windows, and project file for MacOS).
 
 #Notes
 ======
