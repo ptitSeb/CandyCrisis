@@ -17,6 +17,8 @@ IF(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
 	add_definitions(-DLINUX=1)
 endif()
 
+add_definitions(-std=c++11) 
+
 set(GAME_SOURCE_FILES
 	blitter.cpp
 	control.cpp
