@@ -6,8 +6,7 @@ Unofficial Linux and Pandora port for the OpenSource game Candy Crisis
 
 Go to the official Website http://candycrisis.sourceforge.net/ for more informations.
 
-#Build
-======
+# Build
 
 You will need CMake, SDL2, SDL2_image and either fmod or SDL2_Sound to build CandyCrisis
 
@@ -22,8 +21,7 @@ You can found an SDL2 compatible verison of SDL_sound here: https://github.com/p
 
 Windows and MacOS build are not officially supported in this repo, but should works (Just missings the libs for Windows, and project file for MacOS).
 
-#Notes
-======
+# Notes
 
 The FMod version has been modified to use an old FMOD 3.x lib.
 
