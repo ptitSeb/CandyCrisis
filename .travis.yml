@@ -7,6 +7,9 @@ compiler:
 
 #Build steps
 before_install:
+    - sudo apt-add-repository --yes ppa:zoogie/sdl2-snapshots       # libsdl2
+
+install:
     - sudo apt-get install libsdl2-dev libsdl2-image-dev -y
     - git clone https://github.com/ptitSeb/SDL_sound
     - cd SDL_sound
