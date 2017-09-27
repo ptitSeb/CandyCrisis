@@ -6,6 +6,8 @@ Unofficial Linux and Pandora port for the OpenSource game Candy Crisis
 
 Go to the official Website http://candycrisis.sourceforge.net/ for more informations.
 
+![sreenshot on Pandora](screenshot.png "screenshot on Pandora")
+
 # Build
 
 You will need CMake, SDL2, SDL2_image and either fmod or SDL2_Sound to build CandyCrisis
