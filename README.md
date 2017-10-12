@@ -27,6 +27,6 @@ Windows and MacOS build are not officially supported in this repo, but should wo
 
 The FMod version has been modified to use an old FMOD 3.x lib.
 
-The SDL_Sound need and SDL_Sound compile for SDL2. You can found one here: https://github.com/ptitSeb/SDL_sound (the lib is then called libSDL2_sound.so to be able to have both SDL1.2 and SDL2 version on the system).
+The SDL_Sound version need an SDL_Sound library compiled for SDL2. You can found one here: https://github.com/ptitSeb/SDL_sound (the lib is then called libSDL2_sound.so to be able to have both SDL1.2 and SDL2 version installed at the same time).
 
-Also, note that when the music accelerate (when one of the player is close to the end), the FMOD version simply change the Tempo of the music, where the SDL_sound version change the frequency of the music. So both version will sound differently. Music is still accelerated, so that's fine, but it's actualy a limitation of SDL_sound, and I didn't found a workaround to change tempo of the MOD files.
+Also, note that when the music accelerate (when one of the players is close to the end), the FMOD version simply change the Tempo of the music, where the SDL_sound version change the frequency of the music. So both version will sound differently. Music is still accelerated, so that's fine, but it's actualy a limitation of SDL_sound, and I didn't found a workaround to change tempo of the MOD files.
