@@ -977,7 +977,7 @@ const char *gameCredits[][6] =
 #ifdef USE_FMOD
 	{ "Open Source", "gcc, mingw", "SDL", "libpng", "IJG", "zlib" },
 #else
-	{ "Open Source", "gcc, mingw", "SDL, SDL_mixer", "libpng", "IJG", "zlib" },
+	{ "Open Source", "gcc, mingw", "SDL, SDL_sound", "libpng", "IJG", "zlib" },
 #endif
 	{ "Special Thanks", "Sam Lantinga", "Carey Lening", "modarchive.com", "digitalblasphemy.com", "" },	  
 	{ "Please Register!", "The full version of", "Candy Crisis features", "twelve stages and also", "includes two player", "mode." } 		  
