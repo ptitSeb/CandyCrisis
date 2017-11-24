@@ -47,7 +47,7 @@
 //   libjpeg (used by SDL_image)
 //   libpng (used by SDL_image)
 //   zlib (used by libpng)
-// • Using fmod for sound; replaces MikMod => with SDL_mixer optionnal path
+// • Using fmod for sound; replaces MikMod => with SDL_sound optionnal path
 // • Wrote a utility library, SDLU, to pick up slack in the SDL
 //   implementation and to help SDL mesh with a Mac-centric universe.
 // • New registration code algorithm based on a fast string hash.
